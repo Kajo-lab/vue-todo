@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.todo-item.done .todo-content input {
+	text-decoration: line-through;
+	color: gray;
+}
